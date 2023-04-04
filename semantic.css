@@ -1,0 +1,19 @@
+body {
+    background-color: lightyellow;
+}
+#wrapper {
+    max-width: 1000px;    /* 최대-폭: 1000px */
+    height: 100vh;
+    margin: 0 auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* 컨텐츠 정렬: 양쪽 끝에 */
+}
+.box {
+    margin: 50px;
+    border: 1px solid gray;
+    padding: 30px;
+}
